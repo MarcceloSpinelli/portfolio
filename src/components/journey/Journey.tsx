@@ -45,13 +45,13 @@ const Journey: React.FC<JourneyProps> = ({ languageToken, isAnimated }) => {
                     <div className={style.iconAndModule}>
                         <BriefcaseBusiness />
                         <p>{languageToken.getTitleExperience()}</p>
-                        <h1 className={style.title}>Dock Tech</h1>
+                        <h1 className={style.title}>Stefanini Group</h1>
                     </div>
                     <div className={style.imageAndText}>
                         <a href="https://dock.tech/" target="_blank" rel="noopener noreferrer">
                             <Image
                                 className={style.image}
-                                src={'/portfolio/dock.jpeg'}
+                                src={'/portfolio/stefanini.jpeg'}
                                 alt='experience'
                                 width={108}
                                 height={108}
