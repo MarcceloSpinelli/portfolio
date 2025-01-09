@@ -1,3 +1,4 @@
+# Sample workflow for building and deploying a Next.js site to GitHub Pages
 name: Deploy Next.js site to Pages
 
 on:
@@ -67,14 +68,12 @@ jobs:
         env:
           NEXT_PUBLIC_WORLD: ${{ secrets.NEXT_PUBLIC_WORLD }}
           NODE_ENV: ${{ secrets.NODE_ENV }}
-        run: |
-          ${{ steps.detect-package-manager.outputs.runner }} next build
-          ${{ steps.detect-package-manager.outputs.runner }} next export -o ./out  # Garante que os arquivos gerados sejam exportados para a pasta "out"
+        run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out  # Garante que a pasta "out" seja usada para o upload
+          path: ./out
 
   # Deployment job
   deploy:
