@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ languageToken }) => {
             <a href="mailto:matheus.leone.sp@outlook.com" target="_blank" rel="noopener noreferrer">
               <Mail className={style.socialIcon} />
             </a>
-            <a href="https://www.linkedin.com/in/matheus-leone-sp/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/marccelo-spinelli-24739b2a2/" target="_blank" rel="noopener noreferrer">
               <Linkedin className={style.socialIcon} />
             </a>
             <a href="https://github.com/matheu5leone" target="_blank" rel="noopener noreferrer">

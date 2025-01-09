@@ -11,7 +11,7 @@ export const projects = [
     },
     technologies: ["Python", "Pandas", "OS", "Glob", "ExcelWriter"],
     image: "/portfolio/project-banners/etl-netflix.png",
-    link: "https://github.com/matheu5leone/python-etl-netflix",
+    link: "",
     colaborators: [],
     profiles: []
   },
@@ -27,7 +27,7 @@ export const projects = [
     },
     technologies: ["Node.js", "Discord.js", "Express", "dotenv", "REST API"],
     image: "/portfolio/project-banners/aranhobot.jpg",
-    link: "https://github.com/matheu5leone/aranhobot",
+    link: "",
     colaborators: [],
     profiles: []
   },
@@ -43,7 +43,7 @@ export const projects = [
     },
     technologies: ["Java", "Spring Boot", "JPA", "Spring Scheduler", "Docker", "MySQL"],
     image: "/portfolio/project-banners/logo-magalu.png",
-    link: "https://github.com/matheu5leone/desafio-magalu",
+    link: "",
     colaborators: [],
     profiles: []
   },
@@ -75,7 +75,7 @@ export const projects = [
     },
     technologies: ["Java", "Spring Boot", "JPA", "Spring Security", "Docker", "MySQL"],
     image: "/portfolio/project-banners/capivara.png",
-    link: "https://github.com/matheu5leone/backend-memomate",
+    link: "",
     colaborators: [],
     profiles: []
   },

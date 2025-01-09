@@ -27,7 +27,7 @@ const About: React.FC<AboutProps> = ({ languageToken }) => {
         <p className={style.role}>{languageToken.getRole()}</p>
         <div className={style.iconsSocial}>
           <a
-            href="https://www.linkedin.com/in/matheus-leone-sp/"
+            href="https://www.linkedin.com/in/marccelo-spinelli-24739b2a2/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -42,7 +42,7 @@ const About: React.FC<AboutProps> = ({ languageToken }) => {
             </svg>
           </a>
           <a
-            href="https://github.com/matheu5leone"
+            href="https://github.com/MarcceloSpinelli"
             target="_blank"
             rel="noopener noreferrer"
           >

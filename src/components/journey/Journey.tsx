@@ -48,7 +48,7 @@ const Journey: React.FC<JourneyProps> = ({ languageToken, isAnimated }) => {
                         <h1 className={style.title}>Stefanini Group</h1>
                     </div>
                     <div className={style.imageAndText}>
-                        <a href="https://dock.tech/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://stefanini.com/pt-br" target="_blank" rel="noopener noreferrer">
                             <Image
                                 className={style.image}
                                 src={'/portfolio/stefanini.jpeg'}
