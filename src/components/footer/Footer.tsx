@@ -15,13 +15,13 @@ const Footer: React.FC<FooterProps> = ({ languageToken }) => {
         <div className={style.footerSection}>
           <h4 className={style.footerTitle}>{languageToken.getContactMe()}</h4>
           <div className={style.socialLinks}>
-            <a href="mailto:matheus.leone.sp@outlook.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:marccelospinelli@outlook.com" target="_blank" rel="noopener noreferrer">
               <Mail className={style.socialIcon} />
             </a>
             <a href="https://www.linkedin.com/in/marccelo-spinelli-24739b2a2/" target="_blank" rel="noopener noreferrer">
               <Linkedin className={style.socialIcon} />
             </a>
-            <a href="https://github.com/matheu5leone" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/MarcceloSpinelli" target="_blank" rel="noopener noreferrer">
               <Github className={style.socialIcon} />
             </a>
           </div>
@@ -42,7 +42,7 @@ const Footer: React.FC<FooterProps> = ({ languageToken }) => {
           </div>
         </div>
         <div className={style.footerSection}>
-          <p className={style.footerText}>{(languageToken.getDevelopedBy())} <strong>Matheus Leone</strong></p>
+          <p className={style.footerText}>{(languageToken.getDevelopedBy())} <strong>Marccelo Spinelli</strong></p>
           <p className={style.footerText}>&copy; {new Date().getFullYear()} {(languageToken.getAllRightsReserved())}</p>
         </div>
       </div>
