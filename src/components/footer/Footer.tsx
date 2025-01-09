@@ -29,7 +29,7 @@ const Footer: React.FC<FooterProps> = ({ languageToken }) => {
         <div className={style.footerSection}>
           <div className={style.footerLinks}>
             <a href=
-              {(languageToken.getBoolean() ? "/portfolio/docs/cv-matheus-leone-silva-en.pdf" : "/portfolio/docs/cv-matheus-leone-silva-pt.pdf")}
+              {(languageToken.getBoolean() ? "" : "")}
               download className={style.downloadCv}>
               <FileText  />
               {(languageToken.getCV())}
