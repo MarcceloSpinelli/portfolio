@@ -51,7 +51,7 @@ const Journey: React.FC<JourneyProps> = ({ languageToken, isAnimated }) => {
                         <a href="https://dock.tech/" target="_blank" rel="noopener noreferrer">
                             <Image
                                 className={style.image}
-                                src={'/portfolio/dock.png'}
+                                src={'/portfolio/dock.jpeg'}
                                 alt='experience'
                                 width={108}
                                 height={108}
