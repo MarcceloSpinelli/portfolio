@@ -82,33 +82,33 @@ export const projects = [
   {
     id: 6,
     title: {
-      en: "Changer - File Conversion Platform",
-      pt: "Changer - Plataforma de Conversão de Arquivos"
+      en: "NorthInk - Tattoo artists social network",
+      pt: "NorthInk - Rede social de tatuadores"
     },
     description: {
-      en: "Changer is a file conversion platform that enables users to seamlessly convert files between various formats. The backend, developed with Spring Boot, handles file processing efficiently and integrates with AWS S3 for secure file storage. The frontend, built with React, offers a user-friendly interface for uploading, managing, and converting files. With Spring Security ensuring robust authentication and Swagger providing comprehensive API documentation, the platform is designed for scalability and reliability. It runs on AWS EC2 instances and utilizes Docker for containerized deployments.",
-      pt: "Changer é uma plataforma de conversão de arquivos que permite aos usuários converter arquivos entre diversos formatos de forma prática. O backend, desenvolvido com Spring Boot, processa arquivos de maneira eficiente e integra-se ao AWS S3 para armazenamento seguro. O frontend, criado com React, oferece uma interface amigável para upload, gerenciamento e conversão de arquivos. Com Spring Security garantindo autenticação robusta e Swagger fornecendo documentação completa da API, a plataforma foi projetada para escalabilidade e confiabilidade. Ela opera em instâncias EC2 da AWS e utiliza Docker para deploys containerizados."
+      en: "A social network solution focused on tattoo artists. Developed as a web solution and a native Android app in Kotlin using Jetpack Compose, Spring Boot, and React. With Spring Security ensuring robust authentication and Swagger providing comprehensive API documentation, the platform is designed for scalability and reliability. It operates on AWS EC2 instances and leverages Kubernetes for containerized deployments.",
+      pt: "Solução de rede social voltada para tatuadores. Desenvolvida como uma solução web e app android nativo em Kotlin utilizando Jetpack Compose, Springboot e React. Com Spring Security garantindo autenticação robusta e Swagger fornecendo documentação completa da API, a plataforma foi projetada para escalabilidade e confiabilidade. Ela opera em instâncias EC2 da AWS e utiliza Kubernets para deploys containerizados."
     },
     technologies: ["AWS S3", "AWS EC2", "Java", "Spring Boot", "Spring Security", "Docker", "React", "Swagger", "SQL Server"],
-    image: "/portfolio/project-banners/changer.png",
-    link: "https://github.com/orgs/ChangerInc/repositories",
-    colaborators: ["/portfolio/project-banners/colaborators/leo.png", "/portfolio/project-banners/colaborators/mateus.jpeg", "/portfolio/project-banners/colaborators/nata.jpeg", "/portfolio/project-banners/colaborators/sara.png"],
-    profiles: ["https://github.com/LeonardoLopesPrado", "https://github.com/MateusjfSilva", "https://github.com/NataSFSilva", "https://github.com/SaraSouzzz"]
+    image: "/portfolio/project-banners/northink.png",
+    link: "https://github.com/North-Tattoo",
+    colaborators: ["/portfolio/project-banners/colaborators/sophia.jpeg", "/portfolio/project-banners/colaborators/jeremias.png", "/portfolio/project-banners/colaborators/thais.jpeg", "/portfolio/project-banners/colaborators/murilo.jpeg"],
+    profiles: ["https://github.com/sophiaamaral", "https://github.com/J3remias-Barcelos", "https://github.com/thaismoitinho", "https://github.com/Murilo-Morgado"]
   },
   {
     id: 7,
     title: {
-      en: "Datawatch - Machine and System Monitoring",
-      pt: "Datawatch - Monitoramento de Máquinas e Sistemas"
+      en: "Ducktetive - Monitoramento de Servidores",
+      pt: "Ducktetive - Server Monitoring"
     },
     description: {
-      en: "Datawatch is a platform designed to monitor and secure machine parks and IT systems. With a highly specialized team, we protect sensitive data and confidential information for clients across various industries. The platform employs cutting-edge technologies and industry best practices to identify, manage, and mitigate risks. Datawatch offers real-time monitoring, robust analytics, and proactive threat detection, ensuring data integrity and resilience against internal and external threats. Tailored solutions cater to clients' unique challenges, delivering confidence and security for businesses of all sizes.",
-      pt: "Datawatch é uma plataforma projetada para monitorar e proteger parques de máquinas e sistemas de TI. Com uma equipe altamente especializada, protegemos dados sensíveis e informações confidenciais de clientes de diversos setores. A plataforma utiliza tecnologias de ponta e melhores práticas da indústria para identificar, gerenciar e mitigar riscos. O Datawatch oferece monitoramento em tempo real, análises robustas e detecção proativa de ameaças, garantindo integridade e resiliência dos dados contra ameaças internas e externas. Soluções personalizadas atendem aos desafios únicos dos clientes, proporcionando confiança e segurança para empresas de todos os tamanhos."
+      en: "A server monitoring web app was developed to identify and manage issues related to system overuse and malicious activities on hardware.",
+      pt: "Um webapp de monitoramento de servidores foi desenvolvido para identificar e gerenciar problemas de excesso de uso em sistemas e atividades maliciosas nos hardwares."
     },
     technologies: ["AWS EC2", "Java", "Shell", "HTML", "CSS", "JavaScript", "SQL Server"],
-    image: "/portfolio/project-banners/datawatch.png",
-    link: "https://github.com/orgs/Organizacao-X/repositories",
-    colaborators: ["/portfolio/project-banners/colaborators/milagres.png", "/portfolio/project-banners/colaborators/nata.jpeg", "/portfolio/project-banners/colaborators/valadares.jpeg", "/portfolio/project-banners/colaborators/victor.png"],
-    profiles: ["https://github.com/LucasSouza1407", "https://github.com/NataSFSilva", "https://github.com/SofiVBastos", "https://github.com/10340314"]
+    image: "/portfolio/project-banners/ducktetive.png",
+    link: "https://github.com/Ducktetive",
+    colaborators: ["/portfolio/project-banners/colaborators/zapatta.jpeg", "/portfolio/project-banners/colaborators/vitor.jpeg", "/portfolio/project-banners/colaborators/ramon.png", "/portfolio/project-banners/colaborators/kaiky.jpeg"],
+    profiles: ["https://github.com/DanielZapatta", "https://github.com/vitoramos", "https://github.com/JRamonPere", "https://github.com/kaikycruz"]
   }
 ];
